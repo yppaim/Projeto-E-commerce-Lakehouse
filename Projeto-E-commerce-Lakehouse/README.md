@@ -74,16 +74,6 @@ O pipeline cria `ecommerce.duckdb`, executa os checks de qualidade e grava Parqu
 
 Execute `sql/04_analytics.sql` no DuckDB para consultar os KPIs, rankings, evolução mensal e participação por categoria.
 
-## Correções aplicadas
-
-- Estrutura do repositório normalizada: o conteúdo do projeto agora fica na raiz do ZIP.
-- Pipeline independente do diretório atual (`cwd` corrigido).
-- Exportação efetiva das camadas para Parquet, alinhada à documentação.
-- Validações ampliadas para chaves, relacionamentos, preços, quantidades e existência da Gold.
-- Geração de dados encapsulada em função determinística, facilitando testes.
-- SQL analítico revisado e organizado.
-- Documentação e comandos de execução revisados.
-
 ## Tecnologias
 
 Python · Pandas · DuckDB · SQL · Parquet/PyArrow · Git/GitHub
